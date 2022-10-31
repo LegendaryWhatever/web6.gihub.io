@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "Kepler"; 
+  src: url("Kepler.otf") format("opentype"); 
+  font-style: normal; 
+  font-weight: normal; 
+}
+
+body{
+  font-family: Kepler;
+  min-width: 320px;
+  min-height: 100%;
+  font-size: 20px;
+  background: rgb(173, 151, 151);
+}
+.logo1{
+  width: 100px;
+}
+
+nav .navbar{
+  background: rgb(102, 89, 89);
+  height: 70px;
+}
+nav .navbar-brand a{
+  color: white;
+}
+
+.card a{
+  color: black;
+}
+#table{
+  width: 100%;
+}
+
+.url{ 
+  color:rgb(7, 3, 3);
+}
+
+.url:hover {
+  color:rgb(107, 65, 65);
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  background-color: rgb(97, 85, 85);
+  height: 80px;
+}
+.footer_body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+
+.bg-gaya{
+  background-color:rgb(173, 151, 151);
+}
